@@ -1,0 +1,12 @@
+{
+  "name": "Awake Grace Ministries International – UK",
+  "short_name": "Awake Grace",
+  "description": "Awake Grace Ministries International – UK: worship, Bible study, youth, women, children, missions, charity, prayer and giving.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#07102b",
+  "theme_color": "#07102b",
+  "icons": [
+    {"src":"/images/logo.jpg","sizes":"512x512","type":"image/jpeg","purpose":"any maskable"}
+  ]
+}
