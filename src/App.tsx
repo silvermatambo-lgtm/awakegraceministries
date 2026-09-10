@@ -14,6 +14,7 @@ import Missions from './pages/Missions';
 import Children from './pages/Children';
 import Events from './pages/Events';
 import Gallery from './pages/Gallery';
+import Videos from './pages/Videos';
 import Prayer from './pages/Prayer';
 import Give from './pages/Give';
 import Contact from './pages/Contact';
@@ -26,6 +27,6 @@ function ServiceWorkerRegistrar() {
 }
 export default function App() {
   return <BrowserRouter><ServiceWorkerRegistrar/><LoadingScreen/><div className="min-h-screen flex flex-col"><Navbar/><main className="flex-1"><Routes>
-    <Route path="/" element={<Home/>}/><Route path="/about" element={<About/>}/><Route path="/ministries" element={<Ministries/>}/><Route path="/missions" element={<Missions/>}/><Route path="/children" element={<Children/>}/><Route path="/events" element={<Events/>}/><Route path="/gallery" element={<Gallery/>}/><Route path="/prayer" element={<Prayer/>}/><Route path="/give" element={<Give/>}/><Route path="/contact" element={<Contact/>}/><Route path="*" element={<Home/>}/>
+    <Route path="/" element={<Home/>}/><Route path="/about" element={<About/>}/><Route path="/ministries" element={<Ministries/>}/><Route path="/missions" element={<Missions/>}/><Route path="/children" element={<Children/>}/><Route path="/events" element={<Events/>}/><Route path="/gallery" element={<Gallery/>}/><Route path="/videos" element={<Videos/>}/><Route path="/prayer" element={<Prayer/>}/><Route path="/give" element={<Give/>}/><Route path="/contact" element={<Contact/>}/><Route path="*" element={<Home/>}/>
   </Routes></main><Footer/></div><FloatingWhatsApp/><PWAInstall/><MobileBottomMenu/><ScrollToTop/></BrowserRouter>;
 }
